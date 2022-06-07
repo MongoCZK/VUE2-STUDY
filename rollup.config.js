@@ -6,7 +6,7 @@ export default {
   output: {
     file: './dist/vue.js',
     name: 'Vue',  // global.Vue
-    format: 'esm',  // esm es6模块  commonjs模块  iife自执行函数 umd(兼容commonjs amd)
+    format: 'umd',  // esm es6模块  commonjs模块  iife自执行函数 umd(兼容commonjs amd)
     sourcemap: true  // 调试源代码
   },
   plugins:[
