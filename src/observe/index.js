@@ -1,5 +1,4 @@
 import { newArrayProto } from "./array"
-
 class Observer {
   constructor(data) {
 
